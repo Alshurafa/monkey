@@ -1,3 +1,5 @@
+Ted build status: [![Build Status](https://travis-ci.org/Alshurafa/monkey.svg?branch=master)](https://travis-ci.org/Alshurafa/monkey)
+
 For more Monkey fun, please visit: http://www.monkey-x.com
 
 Monkey is released under the zlib/libpng license.
