@@ -5,8 +5,7 @@ compiler:
 install:
   - cd src/ted/
   - sudo apt-get update
-  - sudo apt-get -y install g++ libglu1-mesa-dev libopenal-dev ant
-  - sudo apt-get install qtcreator libqt4-dev libqtwebkit-dev qt4-qmake
+  - sudo apt-get install qtcreator libqt5webkit5-dev qtlocation5-dev qtsensors5-dev libxslt-dev libsqlite3-dev libgstreamer-plugins-base0.10-dev
 script:
   - qmake -project
   - qmake ted.pro
