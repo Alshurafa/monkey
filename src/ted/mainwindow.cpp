@@ -49,7 +49,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow( parent ),_ui( new Ui::Mai
 
     mainWindow=this;
 
-    QTextCodec::setCodecForCStrings( QTextCodec::codecForName( "UTF-8" ) );
+    //QTextCodec::setCodecForCStrings( QTextCodec::codecForName( "UTF-8" ) );
 
 #ifdef Q_OS_MAC
     QCoreApplication::instance()->setAttribute( Qt::AA_DontShowIconsInMenus );
